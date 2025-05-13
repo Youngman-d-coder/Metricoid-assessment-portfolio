@@ -1,4 +1,3 @@
-
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center bg-[#343a40] text-gray-300 p-4">
@@ -7,11 +6,11 @@ const Navbar = () => {
           <span>Nelson</span> Chimdiadi
         </h1>
       </div>
-      <div>
-        <ul>
-          <li>About Me </li>
-          <li>Skills</li>
-          <li>Hobbies & Interests</li>
+      <div className="p-4">
+        <ul className="flex space-x-4 ">
+          <li className="hover:text-gray-100">About Me </li>
+          <li className="hover:text-gray-100">Skills</li>
+          <li className="hover:text-gray-100">Hobbies & Interests</li>
           <li>Passions</li>
           <li>Academic Background</li>
           <li>Work Experience</li>
